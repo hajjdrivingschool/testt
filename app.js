@@ -216,8 +216,8 @@ function showResults() {
   document.getElementById("quizView").classList.add("hidden");
   document.getElementById("resultsView").classList.remove("hidden");
 
-  const phone = localStorage.getItem("quiz_phone") || "03836482 - 03720630";
-  document.getElementById("resultUser").textContent = `مدرسة بسام هاشم — ${phone}`;
+  const phone = localStorage.getItem("quiz_phone") || "70581828 - 03865092";
+  document.getElementById("resultUser").textContent = `Hajj Brothers Driving School — ${phone}`;
 
   const passed = quiz.score >= 24;
 
@@ -323,9 +323,9 @@ if (backBtn) {
   });
 }
 
-  const phone = localStorage.getItem("quiz_phone") || "03836482 - 03720630";
+  const phone = localStorage.getItem("quiz_phone") || "70581828 - 03865092";
 
-  document.getElementById("userName").textContent = "مدرسة بسام هاشم";
+  document.getElementById("userName").textContent = "Hajj Brothers Driving School";
   document.getElementById("userPhone").textContent = phone;
 
   applyLangUI();
